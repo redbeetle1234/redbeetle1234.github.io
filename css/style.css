@@ -597,8 +597,8 @@ a:hover {
   /* color: #fff; */
 }
 .hero .feat-item:hover .icon:after {
-  /* -webkit-transform: scale(1, 1); */
-          /* transform: scale(1, 1); */
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
 }
 .hero .feat-item .icon {
   width: 90px;
@@ -969,13 +969,13 @@ a:hover {
   transition: all .3s;
 }
 .why-us .item .icon:hover {
-  color: #fff;
+  /* color: #fff; */
   -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
 }
 .why-us .item .icon:hover:after {
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
+  /* -webkit-transform: scale(1, 1); */
+          /* transform: scale(1, 1); */
 }
 .why-us .item .icon:after {
   content: '';
