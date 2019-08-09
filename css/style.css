@@ -31,7 +31,7 @@
 	14 Contact
 	15 Footer
 	16 Responsive
- 
+
 
 ---------------------------------------------------------------- */
 /* ----------------------------------------------------------------
@@ -594,11 +594,11 @@ a:hover {
   z-index: 3;
 }
 .hero .feat-item:hover .icon {
-  color: #fff;
+  /* color: #fff; */
 }
 .hero .feat-item:hover .icon:after {
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
+  /* -webkit-transform: scale(1, 1); */
+          /* transform: scale(1, 1); */
 }
 .hero .feat-item .icon {
   width: 90px;
